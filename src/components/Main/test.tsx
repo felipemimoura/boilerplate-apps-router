@@ -7,7 +7,7 @@ describe('<Main />', () => {
     const { container } = render(<Main />)
     // Passo 02 - Buscar o elemento
     expect(
-      screen.getByRole('heading', { name: /react avançado/i })
+      screen.getByRole('heading', { name: /React Avançado/i })
     ).toBeInTheDocument()
     // Passo 03 - Verificar a existencia
 
